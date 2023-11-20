@@ -18,9 +18,6 @@ html {
     bottom: 2rem;
   }
 
-  audio.song {
-    background-color: transparent;
-  }
 
   @media (max-width: 1300px) {
     audio {
