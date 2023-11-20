@@ -20,9 +20,54 @@ html {
 
   @media (max-width: 1300px) {
     audio {
-      display: none;
+      width: 12vw;
+      z-index: 9999;
+      position: fixed;
+      right: 6rem;
+      bottom: 2rem;
     }
   }
+
+  @media (max-width: 991px) {
+    audio {
+      width: 16vw;
+      z-index: 9999;
+      position: fixed;
+      right: 6rem;
+      bottom: 2rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    audio {
+      width: 26vw;
+      z-index: 9999;
+      position: fixed;
+      right: 6rem;
+      bottom: 2rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    audio {
+      width: 28vw;
+      z-index: 9999;
+      position: fixed;
+      right: 6rem;
+      bottom: 2rem;
+    }
+  }
+
+  @media (max-width: 320px) {
+    audio {
+      width: 48vw;
+      z-index: 9999;
+      position: fixed;
+      right: 6rem;
+      bottom: 2rem;
+    }
+  }
+
 
   audio::-webkit-media-controls-panel {
     background-color: #ECD7D3;
