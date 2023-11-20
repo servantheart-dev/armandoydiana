@@ -5901,19 +5901,19 @@ path {
 
     @media screen and (max-width: 991px) {
       .hero-image.absolute.big {
-        width: 127vw;
+        width: 100vw;
       }
     }
 
     @media screen and (max-width: 768px) {
       .hero-image.absolute.big {
-        width: 155vw;
+        width: 90vw;
       }
     }
    
     @media screen and (max-width: 480px) {
       .hero-image.absolute.big {
-        width: 205vw;
+        width: 100vw;
       }
     }
   
