@@ -337,7 +337,7 @@ path {
   }
   
   .w-icon-slider-left:before {
-    content: "←";
+    content: "";
     color: #fff;
   }
   
